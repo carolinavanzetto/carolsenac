@@ -1,74 +1,28 @@
 * body{
     margin: 0px;
     padding: 0px;
-    font-family: "Libertinus Serif Display", system-ui;
 }
-#topoContainer{
+#topo{
     width: 980px;
-    height: 200px;
+    height: 100px;
+    background-color: blue;
     margin: auto;
-    /* background-color: brown; */
 }
 #logo{
     width: 200px;
-    height: 200px;
+    height: 100px;
+    background-color: rgb(145, 32, 85);
     float: left;
-    /* background-color: brown; */
-}
-#logo img{
-    float: left;
-    padding: 10px 10px 10px 10px;
 }
 #menu{
     width: 780px;
-    height: 200px;
+    height: 100px;
+    background-color: brown;
     float: right;
-    /* background-color: blueviolet; */
-    text-align: center;
-    color: white;
-    word-spacing: 10px;
-}
-#menu a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-#menu a:hover{
-    color: deeppink;
-}
-.espacoTopo{
-    padding-top: 50px;
 }
 #banner{
-    width: 100%;
+    width: 700px;
     height: 400px;
-    /* background-color: brown; */
+    background-color: bisque;
     margin: auto;
-    margin-top: 50px;
-}
-#conteudoSite{
-    width: 980px;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-}
-#esquerda{
-    width: 450px;
-    height: 500px;
-    float: left;
-    background-color: pink;
-    margin-top: 50px;
-}
-#direita{
-    width: 450px;
-    height: 500px;
-    background-color: salmon;
-    float: right;
-    margin-top: 50px;
-}
-#rodape{
-    width: 980px;
-    height: 50px;
-    background-color: rgb(172, 85, 140);
-    margin: auto;
-    clear: both;
 }
