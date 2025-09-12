@@ -1,67 +1,61 @@
 * body{
     margin: 0px;
     padding: 0px;
-    font-family: "Story Script", sans-serif;
 }
-#topoContainer{
+#topoPorcento{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#topo{
     width: 980px;
     height: 100px;
     margin: auto;
-    /*background-color: rgb(188, 66, 66);*/
+    background-color: rgb(255, 255, 255);
 }
 #logo{
     width: 200px;
     height: 100px;
     float: left;
-    background-color: rgb(97, 8, 63);
 }
 #menu{
     width: 680px;
     height: 100px;
     float: right;
-    background-color: rgb(212, 112, 112);
-    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    text-decoration: none;
+    word-spacing: 10px;
+}
+#menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#menu a:hover{
+    color: rgb(26, 30, 237);
 }
 #banner{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+#container{
     width: 980px;
-    height: 300px;
-    background-color: rgb(244, 51, 99);
+    height: 500px;
     margin: auto;
-    margin-top: 50px;
-   
+    background-color: rgb(255, 255, 255);
 }
-#conteudoSite{
+.espacoMenu{
+    margin-top: 30px;
+}
+.espacoGaleria{
+    word-spacing: 0px;
+}
+#galeria{
     width: 980px;
-    height: 300px;
-    background-color:rgb(255, 255, 255);
+    height: 436px;
+    background-color: rgb(2, 12, 78);
     margin: auto;
-    margin-top: 50px;
-}
-#meio{
-    width: 320px;
-    height: 300px;
-    background-color: rgb(135, 94, 94);
-    float: left;
-    margin-left: 10px;
-}
-#esquerda{
-    width: 320px;
-    height: 300px;
-    background-color: rgb(59, 31, 31);
-    float: left;
-}
-#direita{
-    width: 320px;
-    height: 300px;
-    background-color: rgb(199, 119, 119);
-    float: right;
-    margin-left: 10px;
-}
-#rodape{
-    width: 980px;
-    height: 100px;
-    background-color: rgb(134, 34, 34);
-    margin: auto;
-    margin-top: 50px;
     clear: both;
+    margin-top: 230px;
 }
