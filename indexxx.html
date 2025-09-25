@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        Nome: <input type="text" id="nome" placeholder="Ex: Carolina">
+        Série:
+        <select name="serie" id="serie">
+            <option>5 Ano</option>
+            <option>6 Ano</option>
+            <option>7 Ano</option>
+            <option>8 Ano</option>
+            <option>9 Ano</option>
+            <option>1 Ano Ensino Médio</option>
+            <option>2 Ano Ensino Médio</option>
+            <option>3 Ano Ensino Médio</option>
+        </select>
+
+        Turno:
+        Manhã <input type="radio" name="manhã" id="manhã" value="Manhã">
+        Tarde <input type="radio" name="tarde" id="tarde" value="Tarde">
+        Noite <input type="radio" name="noite" id="noite" value="Noite">
+
+        <input type="submit" value="Recuperar Valores" onclick="imprimirVariaveis()">
+    </form>
+
+    <script>
+        function imprimirVariaveis() {
+            var nome = document.getElementById('nome').value;
+            var série = document.getElementById('série').value;
+            var manhã = document.getElementById('manhã').value;
+            var tarde = document.getElementById('tarde').value;
+            var noite = document.getElementById('noite').value;
+
+            alert(nome + " " + cursos);
+            document.write(nome);
+
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        Filme: <input type="text" id="filme" placeholder="Ex: Jogos Vorazes">
+        Gênero:
+        <select name="genero" id="genero">
+            <option>Ação</option>
+            <option>Romance</option>
+            <option>Terror</option>
+            <option>Aventura</option>
+            <option>Comédia</option>
+            <option>Suspense</option>
+        </select>
+
+        Assistido:
+        Sim <input type="radio" name="sim" id="sim" value="Sim">
+        Não <input type="radio" name="não" id="não" value="Não">
+
+        <input type="submit" value="Recuperar Valores" onclick="imprimirVariaveis()">
+    </form>
+
+    <script>
+        function imprimirVariaveis() {
+            var filme = document.getElementById('filme').value;
+            var gênero = document.getElementById('gênero').value;
+            var sim = document.getElementById('sim').value;
+            var não = document.getElementById('não').value;
+
+            alert(nome + " " + cursos);
+            document.write(nome);
+
+        }
+    </script>
+
+</body>
+</html>

@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="topoPorcento">
-        <div id="topo">
-            <div id="logo">
-                <img src="logo.jpg.png" width="170">
-            </div>
-            <div id="menu">
-                <div class="espacoMenu"></div>
-                <a href="home">HOME</a>
-                <a href="galeria">GALERIA</a>
-                <a href="servicos">SERVIÇOS</a>
-                <a class="espacoGaleria" href="#">GALERIA DE FOTOS</a>
-                <a href="contato">CONTATO</a>
-            </div>
-        </div>
-    </div>
+    
+    <form>
+        Nome: <input type="text" id="nome">
+        Selecione:
+        <select name="cursos" id="cursos">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>
+        </select>
 
-    <div id="banner">
-        <img src="banner.jpg.jpg" width="100%" />
-    </div>
+        Apple <input type="radio" name="sistema" id="apple" value="Apple">
+        Linux <input type="radio" name="sistema" id="linux" value="Linux">
 
-    <div id="galeria">
-        <img src="cabeleireiro.jpg" width="324px" />
-        <img src="cabeleireiro.jpg" width="324px" />
-        <img src="cabeleireiro.jpg" width="324px" />
-        <img src="cabeleireiro.jpg" width="324px" />
-        <img src="cabeleireiro.jpg" width="324px" />
-        <img src="cabeleireiro.jpg" width="324px" />
-    </div>
+        <input type="submit" value="Enviar" onclick="imprimirVariaveis()">
+    </form>
+
+    <script>
+        function imprimirVariaveis() {
+            var nome = document.getElementById('nome').value;
+            var cursos = document.getElementById('cursos').value;
+            var apple = document.getElementById('apple').value;
+            var linux = document.getElementById('linux').value;
+
+            alert(nome + " " + cursos);
+            document.write(nome);
+
+        }
+    </script>
 
 </body>
 </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        Produto: <input type="text" id="nome" placeholder="Ex: Celular">
+        Categoria:
+        <select name="categoria" id="categoria">
+            <option>Informática</option>
+            <option>Gastronomia</option>
+            <option>Beleza</option>
+            <option>Moda</option>
+        </select>
+
+        Em estoque?
+        Sim <input type="radio" name="sim" id="sim" value="Sim">
+        Não <input type="radio" name="não" id="não" value="Não">
+
+        <input type="submit" value="Recuperar Valores" onclick="imprimirVariaveis()">
+    </form>
+
+    <script>
+        function imprimirVariaveis() {
+            var produto = document.getElementById('produto').value;
+            var categoria = document.getElementById('categoria').value;
+            var sim = document.getElementById('sim').value;
+            var não = document.getElementById('não').value;
+
+            alert(nome + " " + cursos);
+            document.write(nome);
+
+        }
+    </script>
+
+</body>
+</html>
