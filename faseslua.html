@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Fases da Lua: <img src="nova.webp" id="fases da lua" width="280"/>
+    <form>
+        <input type="button" value="Nova" onclick="nova()">
+        <input type="button" value="Minguante" onclick="minguante()">
+        <input type="button" value="Crescente" onclick="crescente()">
+        <input type="button" value="Cheia" onclick="cheia()">
+    </form>
+ 
+    <script>
+        function nova(){
+            var fases = document.getElementById('fases da lua').src='nova.webp';
+ 
+        }
+        function minguante(){
+            var fases = document.getElementById('fases da lua').src='minguante.jpg';
+        }
+        function crescente(){
+            var fases = document.getElementById('fases da lua').src='crescente.webp';
+ 
+        }
+        function cheia(){
+            var fases = document.getElementById('fases da lua').src='cheia.webp';
+        }
+    </script>
+</body>
+</html>

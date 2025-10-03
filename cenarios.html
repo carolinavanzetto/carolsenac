@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Cenário: <img src="praia.png" id="cenario" width="280"/>
+    <form>
+        <input type="button" value="Praia" onclick="praia()">
+        <input type="button" value="Montanha" onclick="montanha()">
+    </form>
+ 
+    <script>
+        function praia(){
+            var cenario = document.getElementById('cenario').src='praia.png';
+ 
+        }
+        function montanha(){
+            var cenario = document.getElementById('cenario').src='montanha.jpg';
+        }
+    </script>
+</body>
+</html>
